@@ -13,7 +13,7 @@ export default function Home() {
         </h1>
         <div className="flex items-center gap-4 ml-52">
           <a
-            href="#"
+            href="https://github.com/Fabricio-Antonio/Rotas4me-mobile"
             className="bg-[#D65E75] hover:bg-pink-700 text-white font-semibold px-6 py-3 rounded-lg shadow transition-colors font-poppins text-lg"
             >
             Versão Demo
