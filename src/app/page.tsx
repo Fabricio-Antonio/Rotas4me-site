@@ -1,103 +1,183 @@
-import Image from "next/image";
+import Image from 'next/image';
 
 export default function Home() {
   return (
-    <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
-      <main className="flex flex-col gap-[32px] row-start-2 items-center sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={180}
-          height={38}
-          priority
-        />
-        <ol className="list-inside list-decimal text-sm/6 text-center sm:text-left font-[family-name:var(--font-geist-mono)]">
-          <li className="mb-2 tracking-[-.01em]">
-            Get started by editing{" "}
-            <code className="bg-black/[.05] dark:bg-white/[.06] px-1 py-0.5 rounded font-[family-name:var(--font-geist-mono)] font-semibold">
-              src/app/page.tsx
-            </code>
-            .
-          </li>
-          <li className="tracking-[-.01em]">
-            Save and see your changes instantly.
-          </li>
-        </ol>
-
-        <div className="flex gap-4 items-center flex-col sm:flex-row">
+    <>
+    <section
+      className="w-full min-h-screen bg-cover bg-center flex items-center justify-between px-12 pt-32"
+      style={{ backgroundImage: "url('/background.png')" }}
+      >
+      <div className="flex flex-col items-start justify-center max-w-xl">
+        <h1 className="text-white font-extrabold text-[120px] leading-tight ml-52 mb-20 font-poppins whitespace-nowrap">
+          Rotas<br />For Me
+        </h1>
+        <div className="flex items-center gap-4 ml-52">
           <a
-            className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#ccc] font-medium text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:w-auto"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={20}
-              height={20}
-            />
-            Deploy now
+            href="#"
+            className="bg-[#D65E75] hover:bg-pink-700 text-white font-semibold px-6 py-3 rounded-lg shadow transition-colors font-poppins text-lg"
+            >
+            Versão Demo
           </a>
           <a
-            className="rounded-full border border-solid border-black/[.08] dark:border-white/[.145] transition-colors flex items-center justify-center hover:bg-[#f2f2f2] dark:hover:bg-[#1a1a1a] hover:border-transparent font-medium text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 w-full sm:w-auto md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Read our docs
+            href="#"
+            className="text-white font-medium underline-offset-2 hover:underline font-poppins text-lg"
+            >
+            Saber mais
           </a>
         </div>
-      </main>
-      <footer className="row-start-3 flex gap-[24px] flex-wrap items-center justify-center">
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
+      </div>
+    </section>
+
+    <section className="w-full py-20 bg-white flex justify-center">
+      <div className="max-w-3xl px-4 flex flex-col items-center text-center">
+        <h2 className="text-4xl font-bold text-gray-800 mb-20 font-poppins">
+          Nossa solução
+        </h2>
           <Image
-            aria-hidden
-            src="/file.svg"
-            alt="File icon"
-            width={16}
-            height={16}
-          />
-          Learn
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
+          src="/solution.png"
+          alt="Solução Rotas For Me"
+          width={800}
+          height={400}
+          className="w-full h-auto rounded-lg shadow mb-6"
+        />
+      </div>
+    </section>
+
+    <section className="w-full py-32 bg-white flex justify-center items-center">
+      <div className="max-w-7xl w-full flex flex-col md:flex-row items-center md:items-start gap-16 px-4">
+        <div className="flex-1 flex flex-col items-start">
+          <h2 className="text-5xl font-extrabold text-gray-800 mb-10 font-poppins">Principais<br />Funcionalidades</h2>
+          <ul className="space-y-6 text-left">
+            <li>
+              <span className="text-[#2D3A4A] font-bold">Avalie e contribua:</span>
+              <span className="text-gray-700"> Marque ruas com boa iluminação, policiamento ou pontos de risco.</span>
+            </li>
+            <li>
+              <span className="text-[#D65E75] font-bold">Escolha sua rota segura:</span>
+              <span className="text-gray-700"> Use o app para traçar o melhor caminho, com base em dados públicos e colaboração feminina.</span>
+            </li>
+            <li>
+              <span className="text-[#2D3A4A] font-bold">Acesse ajuda em um clique:</span>
+              <span className="text-gray-700"> Encontre delegacias, abrigos e canais de denúncia próximos a você.</span>
+            </li>
+          </ul>
+        </div>
+        <div className="flex-1 flex justify-center items-center gap-6">
           <Image
-            aria-hidden
-            src="/window.svg"
-            alt="Window icon"
-            width={16}
-            height={16}
+            src="/mock.png"
+            alt="Mockup do app"
+            width={300}
+            height={600}
+            className="h-[600px] w-auto drop-shadow-xl"
           />
-          Examples
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/globe.svg"
-            alt="Globe icon"
-            width={16}
-            height={16}
-          />
-          Go to nextjs.org →
-        </a>
-      </footer>
+        </div>
+      </div>
+    </section>
+
+    <section className="w-full py-24 bg-white flex flex-col items-center">
+      <h2 className="text-5xl font-extrabold text-gray-800 mb-16 font-poppins">Planos</h2>
+      <div className="w-full max-w-6xl flex flex-col md:flex-row gap-8 justify-center items-stretch">
+        <div className="flex-1 bg-white rounded-2xl shadow-lg p-8 flex flex-col items-center border border-blue-100">
+          <h3 className="text-2xl font-bold text-sky-500 mb-2 font-poppins uppercase">Gratuito</h3>
+          <p className="text-gray-500 text-center mb-6 text-sm">
+            Segurança acessível a qualquer hora, em qualquer lugar.<br /><br />
+            Acesso ao mapeamento básico com informações públicas e colaboração da comunidade.<br />
+            Alertas de locais sinalizados e rotas seguras.<br />
+            Cadastro e uso gratuito para todos os usuários.
+          </p>
+          <div className="text-2xl font-bold text-sky-500 mb-4">R$0,00</div>
+          <a href="#" className="mt-auto bg-sky-500 hover:bg-sky-600 text-white font-semibold px-8 py-3 rounded-lg transition-colors font-poppins">Começar a usar</a>
+        </div>
+        <div className="flex-1 bg-white rounded-2xl shadow-lg p-8 flex flex-col items-center border-2 border-pink-400">
+          <h3 className="text-2xl font-bold text-pink-500 mb-2 font-poppins uppercase">Premium</h3>
+          <p className="text-gray-500 text-center mb-6 text-sm">
+            Para quem quer ainda mais controle, exclusividade e proteção.<br /><br />
+            Relatórios de avaliações e riscos personalizados.<br />
+            Comparativo com estatísticas de segurança.<br />
+            Suporte prioritário e funcionalidades exclusivas.
+          </p>
+          <div className="text-2xl font-bold text-pink-500 mb-4">R$9,90/mês</div>
+          <a href="#" className="mt-auto bg-pink-500 hover:bg-pink-600 text-white font-semibold px-8 py-3 rounded-lg transition-colors font-poppins">Adquirir plano</a>
+        </div>
+        <div className="flex-1 bg-white rounded-2xl shadow-lg p-8 flex flex-col items-center border border-gray-300">
+          <h3 className="text-2xl font-bold text-gray-700 mb-2 font-poppins uppercase">Institucional</h3>
+          <p className="text-gray-500 text-center mb-6 text-sm">
+            Para empresas, órgãos públicos e ONGs que desejam soluções personalizadas.<br /><br />
+            Relatórios detalhados, integração de dados e suporte dedicado.<br />
+            Licenciamento especial para múltiplos usuários.<br />
+            Entre em contato para uma proposta personalizada.
+          </p>
+          <div className="text-2xl font-bold text-gray-700 mb-4">-</div>
+          <a href="#" className="mt-auto bg-gray-800 hover:bg-gray-900 text-white font-semibold px-8 py-3 rounded-lg transition-colors font-poppins">Entrar em contato</a>
+        </div>
     </div>
+    </section>
+
+    <section className="w-full flex justify-center items-center py-24 bg-white">
+      <div className="max-w-6xl w-full flex flex-col md:flex-row items-center md:items-start gap-8 px-4">
+        <div className="flex-1 flex flex-col items-start md:pr-8 mb-8 md:mb-0">
+          <h2 className="text-5xl font-extrabold text-gray-800 leading-tight font-poppins text-left">
+            Nossa<br />Iniciativa
+          </h2>
+        </div>
+        <div className="flex-1">
+          <div className="bg-gray-50 rounded-xl p-6 shadow-sm">
+            <p className="text-gray-700 text-base mb-2">
+              <span className="font-bold">Rotas4Me</span> não é só um aplicativo. É uma comunidade que protege umas às outras. É sobre se sentir segura, ser ouvida, e saber que não está sozinha.
+            </p>
+            <p className="text-gray-700 text-base">
+              Seja para ir pra casa, pro trabalho ou pra vida, <span className="font-bold">caminhe com a gente!</span>
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section className="w-full py-16 bg-white flex justify-center items-center">
+      <div className="max-w-6xl w-full flex flex-col items-center">
+        <div className="w-full flex flex-col md:flex-row justify-center items-start gap-8 md:gap-0">
+          <div className="flex-1 flex flex-col items-center">
+            <span className="text-black font-bold font-poppins text-base">Radymilla Camilo</span>
+            <span className="text-black text-sm text-center">Product & Brand<br />Designer</span>
+          </div>
+          <div className="flex-1 flex flex-col items-center">
+            <span className="text-black font-bold font-poppins text-base">Kayus Gracco</span>
+            <span className="text-black text-sm text-center">Business &<br />VideoMaker</span>
+          </div>
+          <div className="flex-1 flex flex-col items-center">
+            <span className="text-black font-bold font-poppins text-base">Luiza Juá</span>
+            <span className="text-black text-sm text-center">Research & Data<br />Analysis</span>
+          </div>
+          <div className="flex-1 flex flex-col items-center">
+            <span className=" text-black font-bold font-poppins text-base">Fabrício Santos</span>
+            <span className="text-black text-sm text-center">Web & Mobile<br />Developer</span>
+          </div>
+          <div className="flex-1 flex flex-col items-center">
+            <span className=" text-black font-bold font-poppins text-base">Thauan Rodrigues</span>
+            <span className="text-black text-sm text-center">Back-end Developer<br />& DevOps</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer className="w-full bg-white border-t border-gray-200 py-6 px-4">
+      <div className="max-w-7xl mx-auto flex items-center justify-between">
+        <div className="flex items-center gap-3">
+          <Image src="/App Icon.png" alt="Rotas4Me Logo" width={160} height={160} className="h-40 w-40" />
+          <div className="flex flex-col leading-tight">
+            <span className="font-bold text-base text-gray-800 font-poppins tracking-widest">ROTAS</span>
+            <span className="text-gray-500 text-xs font-poppins tracking-widest">FOR ME</span>
+          </div>
+        </div>
+        <div className="flex items-center gap-8">
+          <a href="#" aria-label="Instagram" className="text-gray-800 hover:text-pink-500 transition">
+            <svg width="22" height="22" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24"><rect width="18" height="18" x="3" y="3" rx="5"/><circle cx="12" cy="12" r="4"/><path d="M17.5 6.5h.01"/></svg>
+          </a>
+          <a href="#" aria-label="Facebook" className="text-gray-800 hover:text-blue-600 transition font-bold text-lg" style={{fontFamily: 'Arial'}}>f</a>
+          <a href="#" aria-label="LinkedIn" className="text-gray-800 hover:text-blue-700 transition font-bold text-lg" style={{fontFamily: 'Arial'}}>in</a>
+        </div>
+      </div>
+    </footer>
+      </>
   );
 }
