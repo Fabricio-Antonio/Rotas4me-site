@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const Navbar: React.FC = () => {
   return (
-    <nav className="w-full bg-transparent px-4 py-2 flex items-center justify-between fixed top-0 left-0 z-50">
+    <nav className="w-full bg-transparent px-4 py-2 flex items-center justify-between absolute top-0 left-0 z-50">
         <Image src="/logo.png" alt="Rotas For Me" width={140} height={80} className="h-20 w-35" />
 
       <div className="flex space-x-8">
