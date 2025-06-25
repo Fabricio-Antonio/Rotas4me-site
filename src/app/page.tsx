@@ -32,7 +32,7 @@ export default function Home() {
 
       <section className="w-full py-20 bg-white flex justify-center">
         <div className="max-w-3xl px-4 flex flex-col items-center text-center">
-          <h2 className="text-4xl font-bold text-gray-800 mb-20 font-poppins">
+          <h2 className="text-4xl font-bold text-[#33363F] mb-20 font-poppins">
             Nossa solução
           </h2>
           <Image
@@ -48,7 +48,7 @@ export default function Home() {
       <section className="w-full py-32 bg-white flex justify-center items-center">
         <div className="max-w-7xl w-full flex flex-col md:flex-row items-center md:items-start gap-16 px-4">
           <div className="flex-1 flex flex-col items-start">
-            <h2 className="text-5xl font-extrabold text-gray-800 mb-10 font-poppins">
+            <h2 className="text-5xl font-extrabold text-[#33363F] mb-10 font-poppins">
               Principais
               <br />
               Funcionalidades
@@ -58,7 +58,7 @@ export default function Home() {
                 <span className="text-[#D65E75] font-bold">
                   Avalie e contribua:
                 </span>
-                <span className="text-gray-700">
+                <span className="ttext-[#33363F]">
                   {" "}
                   Marque ruas com boa iluminação, policiamento ou pontos de
                   risco.
@@ -68,7 +68,7 @@ export default function Home() {
                 <span className="text-[#D65E75] font-bold">
                   Escolha sua rota segura:
                 </span>
-                <span className="text-gray-700">
+                <span className="text-[#33363F]">
                   {" "}
                   Use o app para traçar o melhor caminho, com base em dados
                   públicos e colaboração feminina.
@@ -78,7 +78,7 @@ export default function Home() {
                 <span className="text-[#D65E75] font-bold">
                   Acesse ajuda em um clique:
                 </span>
-                <span className="text-gray-700">
+                <span className="text-[#33363F]">
                   {" "}
                   Encontre delegacias, abrigos e canais de denúncia próximos a
                   você.
@@ -99,7 +99,7 @@ export default function Home() {
       </section>
 
       <section className="w-full py-24 bg-white flex flex-col items-center">
-        <h2 className="text-5xl font-extrabold text-gray-800 mb-16 font-poppins">
+        <h2 className="text-5xl font-extrabold text-[#33363F] mb-16 font-poppins">
           Planos
         </h2>
         <div className="w-full max-w-6xl flex flex-col md:flex-row gap-8 justify-center items-stretch">
@@ -218,20 +218,20 @@ export default function Home() {
       <section className="w-full flex justify-center items-center py-24 bg-white">
         <div className="max-w-6xl w-full flex flex-col md:flex-row items-center md:items-start gap-8 px-4">
           <div className="flex-1 flex flex-col items-start md:pr-8 mb-8 md:mb-0">
-            <h2 className="text-5xl font-extrabold text-gray-800 leading-tight font-poppins text-left">
+            <h2 className="text-5xl font-extrabold text-[#33363F] leading-tight font-poppins text-left">
               Nossa
               <br />
               Iniciativa
             </h2>
           </div>
           <div className="flex-1">
-            <div className="bg-gray-50 rounded-xl p-6">
-              <p className="text-gray-700 text-base mb-2">
+            <div className="bg-gray-50 rounded-xl p-6 w-[52rem] text-[1.25rem]">
+              <p className="text-[#33363F] text-base mb-2">
                 <span className="font-bold">Rotas4Me</span> não é só um
                 aplicativo. É uma comunidade que protege umas às outras. É sobre
                 se sentir segura, ser ouvida, e saber que não está sozinha.
               </p>
-              <p className="text-gray-700 text-base">
+              <p className="text-[#33363F] text-base">
                 Seja para ir pra casa, pro trabalho ou pra vida,{" "}
                 <span className="font-bold">caminhe com a gente!</span>
               </p>
