@@ -49,33 +49,25 @@ export default function Home() {
         <div className="max-w-7xl w-full flex flex-col md:flex-row items-center md:items-start gap-8 md:gap-16 px-2 sm:px-4">
           <div className="flex-1 flex flex-col items-center md:items-start">
             <h2 className="text-2xl xs:text-3xl sm:text-5xl font-extrabold text-[#33363F] mb-6 sm:mb-10 font-poppins text-center md:text-left">
-              Principais
-              <br className="block sm:hidden" />
+              Principais 
+              <br/>
               Funcionalidades
             </h2>
             <ul className="space-y-10 sm:space-y-8 text-center md:text-left text-base xs:text-lg sm:text-xl w-full px-2 sm:px-0">
-              <li className="flex flex-col items-center md:items-start">
+              <li className="items-center md:items-start">
                 <span className="text-[#D65E75] font-bold text-lg sm:text-xl mb-2">
-                  Avalie e contribua:
-                </span>
-                <span className="text-[#33363F] text-base sm:text-lg">
-                  Marque ruas com boa iluminação, policiamento ou pontos de risco.
-                </span>
+                  Avalie e contribua:</span><span className="text-[#33363F] text-base sm:text-lg"> Marque ruas com boa iluminação, policiamento ou pontos de risco.</span>
               </li>
-              <li className="flex flex-col items-center md:items-start">
+              <li className="items-center md:items-start">
                 <span className="text-[#D65E75] font-bold text-lg sm:text-xl mb-2">
-                  Escolha sua rota segura:
-                </span>
-                <span className="text-[#33363F] text-base sm:text-lg">
-                  Use o app para traçar o melhor caminho, com base em dados públicos e colaboração feminina.
-                </span>
+                  Escolha sua rota segura: </span><span className="text-[#33363F] text-base sm:text-lg">
+                   Use o app para traçar o melhor caminho, com base em dados públicos e colaboração feminina.</span>
               </li>
-              <li className="flex flex-col items-center md:items-start">
+              <li className="items-center md:items-start">
                 <span className="text-[#D65E75] font-bold text-lg sm:text-xl mb-2">
                   Acesse ajuda em um clique:
                 </span>
-                <span className="text-[#33363F] text-base sm:text-lg">
-                  Encontre delegacias, abrigos e canais de denúncia próximos a você.
+                <span className="text-[#33363F] text-base sm:text-lg"> Encontre delegacias, abrigos e canais de denúncia próximos a você.
                 </span>
               </li>
             </ul>
