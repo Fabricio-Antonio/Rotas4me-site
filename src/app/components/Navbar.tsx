@@ -8,9 +8,9 @@ const Navbar: React.FC = () => {
 
       <div className="flex space-x-8">
         <a href="#" className="text-white font-bold">Início</a>
-        <a href="#" className="text-white">Solução</a>
-        <a href="#" className="text-white">Planos</a>
-        <a href="#" className="text-white">Iniciativa</a>
+        <a href="#solution" className="text-white">Solução</a>
+        <a href="#price" className="text-white">Planos</a>
+        <a href="#initiative" className="text-white">Iniciativa</a>
       </div>
 
       <a

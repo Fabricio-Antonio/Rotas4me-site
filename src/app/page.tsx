@@ -21,7 +21,7 @@ export default function Home() {
               Versão Demo
             </a>
             <a
-              href="#"
+              href="https://youtu.be/TQDn3RTcNbs?si=Cg2VwGuB7ZEejFCf"
               className="text-white font-medium underline-offset-2 hover:underline font-poppins text-lg"
             >
               Saber mais
@@ -30,7 +30,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="w-full py-20 bg-white flex justify-center">
+      <section id="solution" className="w-full py-20 bg-white flex justify-center">
         <div className="max-w-3xl px-4 flex flex-col items-center text-center">
           <h2 className="text-4xl font-bold text-[#33363F] mb-20 font-poppins">
             Nossa solução
@@ -98,7 +98,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="w-full py-24 bg-white flex flex-col items-center">
+      <section id="price" className="w-full py-24 bg-white flex flex-col items-center">
         <h2 className="text-5xl font-extrabold text-[#33363F] mb-16 font-poppins">
           Planos
         </h2>
@@ -215,7 +215,7 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <section className="w-full flex justify-center items-center py-24 bg-white">
+      <section id="initiative" className="w-full flex justify-center items-center py-24 bg-white">
         <div className="max-w-6xl w-full flex flex-col md:flex-row items-center md:items-start gap-8 px-4">
           <div className="flex-1 flex flex-col items-start md:pr-8 mb-8 md:mb-0">
             <h2 className="text-5xl font-extrabold text-[#33363F] leading-tight font-poppins text-left">
