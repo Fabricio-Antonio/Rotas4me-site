@@ -4,10 +4,10 @@ export default function Home() {
   return (
     <>
       <section
-        className="w-full min-h-screen bg-cover bg-center flex flex-col-reverse md:flex-row items-center justify-between px-4 md:px-12 pt-32"
+        className="w-full min-h-screen bg-cover bg-center flex flex-col-reverse md:flex-row items-center justify-between px-4 md:px-12 pt-12 md:pt-32"
         style={{ backgroundImage: "url('/background.png')" }}
       >
-        <div className="flex flex-col items-center md:items-start justify-center w-full md:max-w-xl">
+        <div className="flex flex-col items-center md:items-start justify-center w-full md:max-w-xl mb-40 md:mb-0">
           <h1 className="text-white font-extrabold text-[40px] sm:text-[64px] md:text-[90px] lg:text-[120px] leading-tight md:ml-52 mb-8 md:mb-20 font-poppins text-center md:text-left whitespace-nowrap">
             Rotas
             <br />
