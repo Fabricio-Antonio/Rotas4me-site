@@ -25,3 +25,18 @@ body {
   color: var(--foreground);
   font-family: var(--font-poppins), Arial, Helvetica, sans-serif;
 }
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #FAFAFA;
+  z-index: 9999;
+  position: relative;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #D65E75;
+  border-radius: 10px;
+}
