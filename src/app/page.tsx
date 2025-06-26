@@ -53,12 +53,12 @@ export default function Home() {
               <br />
               Funcionalidades
             </h2>
-            <ul className="space-y-6 text-left">
+            <ul className="space-y-6 text-left font-[1.25rem] w-[25rem]">
               <li>
                 <span className="text-[#D65E75] font-bold">
                   Avalie e contribua:
                 </span>
-                <span className="ttext-[#33363F]">
+                <span className="text-[#33363F]">
                   {" "}
                   Marque ruas com boa iluminação, policiamento ou pontos de
                   risco.
