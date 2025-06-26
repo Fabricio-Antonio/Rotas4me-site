@@ -244,9 +244,9 @@ export default function Home() {
         <div className="max-w-6xl w-full flex flex-col items-center">
           <div className="w-full flex flex-col md:flex-row justify-center items-start gap-8 md:gap-0">
             <div className="flex-1 flex flex-col items-center">
-              <span className="text-black font-bold font-poppins text-base">
+              <a href="https://www.linkedin.com/in/radymilla-cristiano/" target="_blank" className="text-black font-bold font-poppins text-base">
                 Radymilla Camilo
-              </span>
+              </a>
               <span className="text-black text-sm text-center">
                 Product & Brand
                 <br />
@@ -254,18 +254,18 @@ export default function Home() {
               </span>
             </div>
             <div className="flex-1 flex flex-col items-center">
-              <span className="text-black font-bold font-poppins text-base">
+              <a href="https://www.linkedin.com/in/engkayusgracco/" target="_blank" className="text-black font-bold font-poppins text-base">
                 Kayus Gracco
-              </span>
+              </a>
               <span className="text-black text-sm text-center">
                 Business &<br />
                 VideoMaker
               </span>
             </div>
             <div className="flex-1 flex flex-col items-center">
-              <span className="text-black font-bold font-poppins text-base">
+              <a href="https://www.linkedin.com/in/luiza-ju%C3%A1-589b96311/" target="_blank" className="text-black font-bold font-poppins text-base">
                 Luiza Juá
-              </span>
+              </a>
               <span className="text-black text-sm text-center">
                 Research & Data
                 <br />
@@ -273,9 +273,9 @@ export default function Home() {
               </span>
             </div>
             <div className="flex-1 flex flex-col items-center">
-              <span className=" text-black font-bold font-poppins text-base">
+              <a href="https://www.linkedin.com/in/fabricio-ss/" target="_blank" className=" text-black font-bold font-poppins text-base">
                 Fabrício Santos
-              </span>
+              </a>
               <span className="text-black text-sm text-center">
                 Web & Mobile
                 <br />
@@ -283,9 +283,9 @@ export default function Home() {
               </span>
             </div>
             <div className="flex-1 flex flex-col items-center">
-              <span className=" text-black font-bold font-poppins text-base">
+              <a href="https://www.linkedin.com/in/thauan-rodrigues-1744072a6/" target="_blank" className=" text-black font-bold font-poppins text-base">
                 Thauan Rodrigues
-              </span>
+              </a>
               <span className="text-black text-sm text-center">
                 Back-end Developer
                 <br />& DevOps
